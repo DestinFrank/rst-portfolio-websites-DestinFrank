@@ -1,54 +1,138 @@
-<h1 style="text-align: center;">~ Weekly Calendar ~</h1>
-<table>
-    <tr>
-      <th>Monday</th>
-      <th>Tuesday</th>
-      <th>Wednesday</th>
-      <th>Thursday</th>
-      <th>Friday</th>
-      <th>Saturday</th>
-      <th>Sunday</th>
-      
-    </tr>
-    <tr>
-      <td>Religion</td>
-      <td>Religion</td>
-      <td>Religion</td>
-      <td>Religion</td>
-      <td>Religion</td>
-      <td>Play videogames</td>
-      <td>Sleep in</td>
-    </tr>
-    <tr>
-      <td>English</td>
-      <td>English</td>
-      <td>English</td>
-      <td>English</td>
-      <td>English</td>
-      <td>3D Design</td>
-      <td>Read a book</td>
-    </tr>
-    <tr>
-        <td>History</td>
-        <td>History</td>
-        <td>History</td>
-        <td>History</td>
-        <td>History</td>
-        <td>Code</td>
-        <td>Lay on Couch </td>
-      </tr>
-      <tr>
-        <td>Com. Sci.</td>
-        <td>Com. Sci.</td>
-        <td>Com. Sci.</td>
-        <td>Com. Sci.</td>
-        <td>Com. Sci.</td>
-        <td>Watch Movies</td>
-        <td>Go to sleep</td>
-      </tr>
-  </table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destin's Awesome Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
 
-  <a href="DestinScool.html"style="color: rgb(2, 2, 35);">Back</a>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-  <body style="background-color:rgb(85, 110, 201);"></body>
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
 
+        .button {
+    display: block;
+    margin: 20px auto; /* Center horizontally and add top margin */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center text */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .day {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .day h2 {
+            color: #007bff;
+        }
+
+        .textbox {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>~ Destin's Awesome Calendar ~</h1>
+
+    <a href="DestinScool.html" class="button">Back</a>
+
+    <div class="calendar">
+        <div class="day">
+            <h2>Monday</h2>
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder Image">
+            <div class="textbox">
+                <p>Event description for Monday.</p>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Tuesday</h2>
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder Image">
+            <div class="textbox">
+                <p>Event description for Tuesday.</p>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Wednesday</h2>
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder Image">
+            <div class="textbox">
+                <p>Event description for Wednesday.</p>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Thursday</h2>
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder Image">
+            <div class="textbox">
+                <p>Event description for Thursday.</p>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Friday</h2>
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder Image">
+            <div class="textbox">
+                <p>Event description for Friday.</p>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Saturday</h2>
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder Image">
+            <div class="textbox">
+                <p>Event description for Saturday.</p>
+            </div>
+        </div>
+        <div class="day">
+            <h2>Sunday</h2>
+            <img src="https://via.placeholder.com/200x150" alt="Placeholder Image">
+            <div class="textbox">
+                <p>Event description for Sunday.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

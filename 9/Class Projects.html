@@ -1,4 +1,128 @@
-<h1 style="text-align: center;">~ Class Projects ~</h1>
-<b>There are none );</b>
-<a href="DestinScool.html"style="color: rgb(2, 2, 35);">Back</a>
-<body style="background-color:rgb(193, 105, 188);"></body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+
+        b {
+            display: block;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .button {
+    display: block;
+    margin: 20px auto; /* Center horizontally and add top margin */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+        .project {
+            display: inline-block;
+            margin: 20px;
+            position: relative;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .project-title {
+            margin-top: 10px;
+            color: #777;
+        }
+
+        .project-description {
+            color: #555;
+            font-style: italic;
+        }
+
+        .project-info {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .project:hover .project-info {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>~ Class Projects ~</h1>
+    <b>Hove your cursor over the images to see what they are!</b>
+    <a href="DestinScool.html" class="button">Back</a>
+
+    <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1">
+        <div class="project-info">
+            <div class="project-title">Project 1</div>
+            <div class="project-description">Description for Project 1</div>
+        </div>
+    </div>
+
+    <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2">
+        <div class="project-info">
+            <div class="project-title">Project 2</div>
+            <div class="project-description">Description for Project 2</div>
+        </div>
+    </div>
+
+    <div class="project">
+        <img src="https://via.placeholder.com/300x200" alt="Project 3">
+        <div class="project-info">
+            <div class="project-title">Project 3</div>
+            <div class="project-description">Description for Project 3</div>
+        </div>
+    </div>
+
+    <!-- Add more project divs with images, titles, and descriptions as needed -->
+
+</div>
+
+</body>
+</html>
